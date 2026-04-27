@@ -1,0 +1,10 @@
+# 1. 저장소 클론 (이미 있다면 생략)
+git clone https://github.com/krriinfodx-beep/Claude.git
+
+# 2. 이 환경의 로컬 커밋 내용 확인
+# 뉴스클리핑_2026-04-27.html 과 .mcp.json 을 수동으로 복사 후
+
+# 3. 커밋 & 푸시
+git add .
+git commit -m "Add news clipping and Gmail MCP config"
+git push origin main
