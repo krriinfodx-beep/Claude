@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gmail": {
+      "command": "npx",
+      "args": ["-y", "@gongrzhe/server-gmail-mcp"],
+      "env": {
+        "GMAIL_CLIENT_ID": "YOUR_CLIENT_ID_HERE",
+        "GMAIL_CLIENT_SECRET": "YOUR_CLIENT_SECRET_HERE",
+        "GMAIL_REFRESH_TOKEN": "YOUR_REFRESH_TOKEN_HERE"
+      }
+    }
+  }
+}
